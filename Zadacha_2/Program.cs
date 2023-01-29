@@ -4,27 +4,27 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.WriteLine("Введите число 1");
+Console.Write("Введите число № 1 - ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число 2");
+Console.Write("Введите число № 2 - ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число 3");
+Console.Write("Введите число № 3 - ");
 int c = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
     if (a > c)
     {
-        System.Console.WriteLine($"Максимальное число {a}");
+        System.Console.WriteLine($"Максимальное число - {a}");
     }
 }
 else if (b>c)
 {
-    System.Console.WriteLine($"Максимальное число {b}");
+    System.Console.WriteLine($"Максимальное число - {b}");
 }
 else 
 {
-    System.Console.WriteLine($"Максимальное число {c}");
+    System.Console.WriteLine($"Максимальное число - {c}");
 }
