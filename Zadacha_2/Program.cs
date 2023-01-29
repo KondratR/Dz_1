@@ -19,12 +19,16 @@ if (a > b)
     {
         System.Console.WriteLine($"Максимальное число - {a}");
     }
+    else 
+    {
+        System.Console.WriteLine($"Максимальное число - {c}");
+    }
 }
-else if (b>c)
+else if (b > c)
 {
     System.Console.WriteLine($"Максимальное число - {b}");
 }
-else 
+else
 {
     System.Console.WriteLine($"Максимальное число - {c}");
 }
