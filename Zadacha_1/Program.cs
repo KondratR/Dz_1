@@ -10,12 +10,11 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if(a>b)
+if (a > b)
 {
-    Console.WriteLine($"Максимальное число {a}");
+    Console.WriteLine($"Большее число {a}, Меньшее число {b} ");
 }
 else
 {
-    System.Console.WriteLine($"Максимальное число {b}");
+    System.Console.WriteLine($"Большее число {b}, Меньшее число {a}");
 }
-
